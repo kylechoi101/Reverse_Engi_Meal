@@ -5,16 +5,18 @@
 ## Introduction
 
 
-As people started to focus more on well-being than money after subprime-mortgage and major recessions. The focus has been finding a healthier lifestyle.
-As people focus to find a healthier life, recipy website boomed. There were many 'so-called' healthy meals, but do they actually have nuturitional effects that they claim to have?
+As people started to focus more on well-being than money after subprime-mortgage and major recessions. 
+The focus has been finding a healthier lifestyle.
+As people focus to find a healthier life, recipy website boomed. 
+There were many 'so-called' healthy meals, but do they actually have nuturitional effects that they claim to have?
 <\br> <\br>
 In the data set I used to perform the research on had 234429 rows and 18 columns. Out of those, I will focus on: 'n_steps', 'name', 'n_ingredients', 'date', 'rating', and 'nutrition'.
-**n_steps**: Number of steps in recipies (int)
-**name**: Recipe name (str)
-**n_ingredients** : Number of ingredients in recipies
-**nutrition**: Nutrition information in the form [calories (#), total fat (PDV), sugar (PDV), sodium (PDV), protein (PDV), saturated fat (PDV), carbohydrates (PDV)]; PDV stands for “percentage of daily value” (str)
-**date**: Date of interaction (str)
-**rating**: Rating a recipies got (float)
+1. **n_steps**: Number of steps in recipies (int)
+1. **name**: Recipe name (str)
+1. **n_ingredients** : Number of ingredients in recipies
+1. **nutrition**: Nutrition information in the form [calories (#), total fat (PDV), sugar (PDV), sodium (PDV), protein (PDV), saturated fat (PDV), carbohydrates (PDV)]; PDV stands for “percentage of daily value” (str)
+1. **date**: Date of interaction (str)
+1. **rating**: Rating a recipies got (float)
 
 ## Data Cleaning and Exploratory Data Analysis
 
