@@ -60,7 +60,10 @@ To address outliers in the `minutes` column, which represents cooking time, the 
   height="600"
   frameborder="0"
 ></iframe>
+
 The mean cooking time is approximately 64.66 minutes, which is considerably higher than the median of 35 minutes. 
+
+
 
 <iframe
   src="bivariate.html"
@@ -68,6 +71,8 @@ The mean cooking time is approximately 64.66 minutes, which is considerably high
   height="600"
   frameborder="0"
 ></iframe>
+
+
 Most recipes likely require a relatively low number of ingredients(20) and steps(40), which is typical for everyday or simplified recipes. This clustering can make it hard to discern patterns in the rest of the data.
 
 
@@ -107,6 +112,7 @@ In our dataset, the 'description' column exhibits missingness in 114 entries. I 
   height="600"
   frameborder="0"
 ></iframe>
+
 I used difference in mean as my statistic to find MAR column. I chose avg_rating, because it was kind of modified version of rating.
 
 p-value for avg_rating missing dependent on user_id  = 0.0
@@ -120,7 +126,7 @@ The p-value of 1.0 indicates that the number of reviews a recipe receives does n
 * Null Hypothesis (H0): The amount of sugar is the same between between normal recipes and high sodium recipes.
 * Alternative Hypothesis (H1): The amount of sugar differs between normal recipes and high sodium recipes.
 
-at 95 siginificance level.
+at 0.05 siginificance level.
 
 <iframe
   src="sugar.html"
