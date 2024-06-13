@@ -79,7 +79,11 @@ The mean cooking time is approximately 64.66 minutes, which is considerably high
 
 Most recipes likely require a relatively low number of ingredients(20) and steps(40), which is typical for everyday or simplified recipes. This clustering can make it hard to discern patterns in the rest of the data.
 
-$\text(fatigue_factor) = \text(minutes) * e^(\text(n_steps)) / 20$
+
+
+**$\text(fatigue_factor) = \text(minutes) * e^(\text(n_steps)) / 20$**
+
+
 
 | Fatigue Factor Bins | n_steps (mean) | n_steps (median) | n_steps (std) | minutes (mean) | minutes (median) | minutes (std) |
 |---------------------|----------------|------------------|---------------|----------------|------------------|---------------|
