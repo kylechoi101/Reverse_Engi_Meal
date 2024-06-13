@@ -81,8 +81,8 @@ Most recipes likely require a relatively low number of ingredients(20) and steps
 
 
 
-**$\text(fatigue_factor) = \text(minutes) * e^(\text(n_steps)) / 20$**
-
+**(fatigue_factor) = (minutes) * e^(n_steps) / 20**
+shows how tired cook gets as times and step goes
 
 
 | Fatigue Factor Bins | n_steps (mean) | n_steps (median) | n_steps (std) | minutes (mean) | minutes (median) | minutes (std) |
