@@ -252,12 +252,12 @@ Hyperparameters were likely tuned using either cross-validation techniques such 
 
 #### Null and Alternative Hypotheses
 
-- **Null Hypothesis (H0)**: There is no difference in the precision of predictions made by the model for data before 2013 and data from 2013 onwards. Formally, \( \text{Precision}_{\text{pre-2013}} = \text{Precision}_{\text{post-2013}} \).
-- **Alternative Hypothesis (H1)**: There is a difference in the precision of predictions between the two time periods. Formally, \( \text{Precision}_{\text{pre-2013}} \neq \text{Precision}_{\text{post-2013}} \).
+- **Null Hypothesis (H0)**: There is no difference in the precision of predictions made by the model for data before 2013 and data from 2013 onwards. Formally, $( \text{Precision}_{\text{pre-2013}} = \text{Precision}_{\text{post-2013}} $).
+- **Alternative Hypothesis (H1)**: There is a difference in the precision of predictions between the two time periods. Formally, $( \text{Precision}_{\text{pre-2013}} \neq \text{Precision}_{\text{post-2013}} $).
 
 #### Test Statistic
 
-- **Difference in Precision**: The test statistic used is the difference in precision scores between the two groups, calculated as \( \text{Precision}_{\text{pre-2013}} - \text{Precision}_{\text{post-2013}} \).
+- **Difference in Precision**: The test statistic used is the difference in precision scores between the two groups, calculated as $( \text{Precision}_{\text{pre-2013}} - \text{Precision}_{\text{post-2013}} $).
 
 #### Significance Level
 
