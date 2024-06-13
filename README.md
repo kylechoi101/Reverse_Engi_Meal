@@ -138,7 +138,7 @@ at 0.05 siginificance level.
   height="600"
   frameborder="0"
 ></iframe>
-
+please zoom near origin. 
 KS test p-value of 0.0 strongly suggests that we reject the null hypothesis.
 
 This indicates that there are statistically significant differences in the sugar content distributions between the low sodium and higher sodium groups.
